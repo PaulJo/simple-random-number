@@ -192,7 +192,6 @@ textarea {
 	font-size: 100px;
     text-align: center;
     font-weight: 700;
-    border: 1px solid royalblue;
     color: #fff;
     background: royalblue;
     width: 200px;
@@ -201,4 +200,13 @@ textarea {
     line-height: 200px;
     margin-top: 34px;
     margin-left: 34px;
+}
+
+.text-stroke {
+    color: #f00;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
 }

@@ -11,9 +11,13 @@ $(function(){
 		let startNum = $("#startNum").val();
 		let endNum = $("#endNum").val();	
 		let resultRandNum = getRandomIntInclusive(startNum, endNum);
+		let randomColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+
+		console.info(randomColor);
 		
+		$("#showResult").css("background-color", randomColor);
 		$("#showResult").show();
-		$("#showResult").text('');
+		$("#showResult").text("");
 		$("#showResult").text(resultRandNum);
 	});
 	
